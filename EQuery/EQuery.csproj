@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A7CFDD0-2700-4398-AC88-FE0834C42274}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EQuery</RootNamespace>
+    <AssemblyName>EQuery</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\CompiledQuery.cs" />
+    <Compile Include="Core\DefaultConvention.cs" />
+    <Compile Include="Core\INamingConvention.cs" />
+    <Compile Include="Core\IoC.cs" />
+    <Compile Include="Core\IResolvable.cs" />
+    <Compile Include="Core\SqlWriter.cs" />
+    <Compile Include="Core\ObjectAssembler.cs" />
+    <Compile Include="Core\ValueProvider.cs" />
+    <Compile Include="Core\Query.cs" />
+    <Compile Include="Core\Queryable.cs" />
+    <Compile Include="Core\QueryContext.cs" />
+    <Compile Include="Core\QueryExecutor.cs" />
+    <Compile Include="IMappingBuilder.cs" />
+    <Compile Include="IEntityMapBuilder.cs" />
+    <Compile Include="Sql\SqlNode\Columns.cs" />
+    <Compile Include="Sql\SqlNode\From.cs" />
+    <Compile Include="Sql\SqlNode\OrderBy.cs" />
+    <Compile Include="Sql\SqlNode\SelectPaging.cs" />
+    <Compile Include="Sql\SqlNode\Top.cs" />
+    <Compile Include="Utils\ExpressionModifier.cs" />
+    <Compile Include="IQuery.cs" />
+    <Compile Include="Mapping\MappingBuilder.cs" />
+    <Compile Include="Mapping\EntityMap.cs" />
+    <Compile Include="Mapping\EntityMapBuilder.cs" />
+    <Compile Include="Mapping\PropertyMap.cs" />
+    <Compile Include="Mapping\ReferenceMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuerableExtention.cs" />
+    <Compile Include="QueryFactory.cs" />
+    <Compile Include="Core\BracketedName.cs" />
+    <Compile Include="Sql\IExprNode.cs" />
+    <Compile Include="Sql\ISqlNode.cs" />
+    <Compile Include="Sql\QueryConverter.cs" />
+    <Compile Include="Sql\SqlNode\And.cs" />
+    <Compile Include="Sql\SqlNode\Binary.cs" />
+    <Compile Include="Sql\SqlNode\Equal.cs" />
+    <Compile Include="Sql\SqlNode\GreaterThan.cs" />
+    <Compile Include="Sql\SqlNode\GreaterThanOrEqual.cs" />
+    <Compile Include="Sql\SqlNode\JoinGroup.cs" />
+    <Compile Include="Sql\SqlNode\LessThan.cs" />
+    <Compile Include="Sql\SqlNode\LessThanOrEqual.cs" />
+    <Compile Include="Sql\SqlNode\Not.cs" />
+    <Compile Include="Sql\SqlNode\NotEqual.cs" />
+    <Compile Include="Sql\SqlNode\Null.cs" />
+    <Compile Include="Sql\SqlNode\Or.cs" />
+    <Compile Include="Sql\SqlNode\Parameter.cs" />
+    <Compile Include="Sql\SqlNode\Precedence.cs" />
+    <Compile Include="Sql\SqlNode\PropertyAccess.cs" />
+    <Compile Include="Sql\SqlNode\Relational.cs" />
+    <Compile Include="Sql\SqlNode\Select.cs" />
+    <Compile Include="Sql\SqlNode\StringLike.cs" />
+    <Compile Include="Sql\SqlNode\UnaryExpr.cs" />
+    <Compile Include="Sql\SqlNode\Where.cs" />
+    <Compile Include="Sql\SqlStrings.cs" />
+    <Compile Include="Sql\WhereConverter.cs" />
+    <Compile Include="Utils\ExpressionHelper.cs" />
+    <Compile Include="Utils\Profiler.cs" />
+    <Compile Include="Utils\TypeHelper.cs" />
+    <Compile Include="Utils\Watch.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
