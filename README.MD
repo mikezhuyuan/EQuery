@@ -8,7 +8,7 @@ A very simple ORM(query only) for .NET and SQL SERVER 2008.
 - Built-in profile
 
 ## Example
-	// POCO
+    // POCO
     public class Assignment
     {
         public int ID { get; set; }
