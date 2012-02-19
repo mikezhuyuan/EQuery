@@ -43,7 +43,7 @@ class Program
 {
 	static void Main(string[] args)
 	{
-		var connStr = @"Data Source=cns-etdbdevvs1;Initial Catalog=YOUR_DATABASE;Integrated Security=True";
+		var connStr = @"Data Source=.;Initial Catalog=YOUR_DATABASE;Integrated Security=True";
 
 		var factory = new ELabFactory(); //this should be cached
 
