@@ -14,11 +14,11 @@ namespace EQuery.Sql.SqlNode
         {
             var value = (string)Context.Values[Parameter.Name].Value;
 
-            if (PartialPrefix && !value.StartsWith("%"))
-                value = '%' + value;
-
-            if (PartialPostfix && !value.EndsWith("%"))
+            if (PartialPrefix && !value.EndsWith("%"))
                 value = value + '%';
+
+            if (PartialPostfix && !value.StartsWith("%"))
+                value = '%' + value;
 
             Context.Values[Parameter.Name].Value = value;
 

@@ -44,7 +44,7 @@ namespace EQuery.Core
                 select.Render(context.Writer);
             }
 
-            return new QueryExecutor(context).InnerExecute<T>().FirstOrDefault();
+            return new QueryExecutor(context).InnerExecuteSingle<T>();
         }
 
         public TRef LoadReference<TSource, TRef>(TSource obj, Expression<Func<TSource, TRef>> expr) where TRef : class
@@ -76,7 +76,7 @@ namespace EQuery.Core
                 select.Render(context.Writer);
             }
 
-            return new QueryExecutor(context).InnerExecute<TRef>().FirstOrDefault();
+            return new QueryExecutor(context).InnerExecuteSingle<TRef>();
         }
 
         public IQueryable<TResult> LoadCollection<TSource, TResult>(TSource obj, Expression<Func<TSource, IEnumerable<TResult>>> expr) where TResult : class
@@ -106,12 +106,14 @@ namespace EQuery.Core
         }
 
         #region IQueryProvider
-        TCollection IQueryProvider.Execute<TCollection>(Expression expression)
-        {            
-            var type = typeof (TCollection).GetGenericArguments()[0];
+        T IQueryProvider.Execute<T>(Expression expression)
+        {
+            var type = typeof(T);
+            if(type.IsGenericType)
+                type = type.GetGenericArguments()[0];
             var context = CreateContext(type, expression);
 
-            return new QueryExecutor(context).Execute<TCollection>();
+            return new QueryExecutor(context).Execute<T>();
         }
 
         IQueryable<T> IQueryProvider.CreateQuery<T>(Expression expression)

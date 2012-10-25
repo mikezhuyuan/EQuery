@@ -32,7 +32,6 @@ namespace EQuery.Mapping
 
             _buildReferences.Add(entities => builder.BuildReferences(entities));
 
-            QueryExecutor.Init<T>();
             return builder;
         }
 

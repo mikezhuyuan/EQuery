@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="94207795-644c-49bd-a0f0-df89d088ddc8" name="mike.zhu@CNS-855 2012-10-17 20:37:38" runUser="BOSTON\mike.zhu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7c547578-1bfa-48e5-86ff-7b7c83d35041">
+    <Deployment runDeploymentRoot="mike.zhu_CNS-855 2012-10-17 20_37_38">
+      <DeploymentItem filename="C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery\bin\Debug\EQuery.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-17T20:37:38.3082072+08:00" queuing="2012-10-17T20:37:38.5102274+08:00" start="2012-10-17T20:37:38.5332297+08:00" finish="2012-10-17T20:37:39.0622826+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="26" executed="26" passed="26" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanGetTableName" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="36f09ae6-03da-ba2b-98e3-71c4de3e1210">
+      <Execution id="be21e80d-7582-4eec-a2ec-01f83741a920" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.ConventionTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetTableName" />
+    </UnitTest>
+    <UnitTest name="BooleanPropertyTest" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="604679de-334e-66ce-ed01-014dbfb26bfb">
+      <Execution id="eec7336b-b59d-4fdc-92b3-c8d3b4848528" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.WhereTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BooleanPropertyTest" />
+    </UnitTest>
+    <UnitTest name="TestOrderBy" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="6b17a000-d079-aa42-ad3c-8990e2b709e5">
+      <Execution id="205e918e-26f5-4f3a-a1da-641c88f6ae0c" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOrderBy" />
+    </UnitTest>
+    <UnitTest name="FailedCases" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="ee66c242-ba04-209e-28ef-2981c7087670">
+      <Execution id="16c62cb3-2ab2-49fa-8930-fa6f26240b33" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.WhereTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FailedCases" />
+    </UnitTest>
+    <UnitTest name="StringLikeTest" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="d07192d4-e75d-7d12-9056-46b40d7d5008">
+      <Execution id="d880184b-8de4-4eb4-b993-5ebb41e034ca" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.WhereTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringLikeTest" />
+    </UnitTest>
+    <UnitTest name="TestTake" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="7a18e475-f266-bb02-2373-6414942efd4f">
+      <Execution id="d0b41ef8-5801-4308-aae2-44b1e3a95346" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTake" />
+    </UnitTest>
+    <UnitTest name="CanGetColumnName" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="a63abb9a-e385-793a-1daf-cc61b5c42db7">
+      <Execution id="01b4b35f-fd19-4d20-a3dd-573cd638c2cc" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.ConventionTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetColumnName" />
+    </UnitTest>
+    <UnitTest name="CanGetKey" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="35081a32-0fde-0865-7ec8-23beaf8671ba">
+      <Execution id="42316c9a-40f3-403f-9150-8e1c75a10cb8" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.ConventionTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetKey" />
+    </UnitTest>
+    <UnitTest name="CanParseString" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="1295939e-2417-b935-57bf-a5775cda5c98">
+      <Execution id="1a9884fa-5bf7-4652-9604-2c163ab41231" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.BracketedNameTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanParseString" />
+    </UnitTest>
+    <UnitTest name="TestSkipWithoutOrder" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="8d99a1ba-7098-6355-7f7d-b0d0f4b9d7e1">
+      <Execution id="45dd5089-8479-4754-90e7-227fcd0503bb" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSkipWithoutOrder" />
+    </UnitTest>
+    <UnitTest name="ManyParameters" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="79121f15-5479-0d86-f00f-ed6d3355e8fb">
+      <Execution id="025f1663-dae7-40f7-aec6-04c9c0b138a2" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ManyParameters" />
+    </UnitTest>
+    <UnitTest name="CanRenderSelect" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="77f8060b-4052-f516-996a-d03c93e5e47a">
+      <Execution id="6fcff3b1-3a0d-40a7-acf1-caf3cab6bb9c" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.SelectTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRenderSelect" />
+    </UnitTest>
+    <UnitTest name="CanMapReference" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="e5212609-28e6-d919-9f48-b6311253b072">
+      <Execution id="070dbd58-8344-4f6b-8978-5e4da574f31f" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.MappingTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanMapReference" />
+    </UnitTest>
+    <UnitTest name="CanSetEntityMapping" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="ba283bc6-c9b6-31e3-d74d-8541b0ea6926">
+      <Execution id="7b45c705-5e5f-4df5-88bf-cd04213ce1ab" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.MappingTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanSetEntityMapping" />
+    </UnitTest>
+    <UnitTest name="CannotMapReference" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="21c8cce6-1ade-17c6-6690-8e6ebcdb5192">
+      <Execution id="a145b6a8-d4aa-4a78-a52b-08b3a91ec69e" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.MappingTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotMapReference" />
+    </UnitTest>
+    <UnitTest name="CanWriteFormattedText" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="557cc086-db43-ea97-028e-72611a1237a8">
+      <Execution id="016b4422-c10f-4393-a3df-b072d778beef" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.SqlWriterTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanWriteFormattedText" />
+    </UnitTest>
+    <UnitTest name="TestVariousTypes" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="142018ea-4c22-7e85-18e2-383834d5b366">
+      <Execution id="2a073de3-3be9-4e8b-a380-41b3c10491b7" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.TypeHelperTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestVariousTypes" />
+    </UnitTest>
+    <UnitTest name="EntityRelationAccessInWhere" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="afd565a3-3a9f-915f-5510-e5d52c834b25">
+      <Execution id="dfc8821b-2cae-4756-89a5-864629f5bf3e" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EntityRelationAccessInWhere" />
+    </UnitTest>
+    <UnitTest name="FailIfInvalidName" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="02bb6116-b3b7-2fbb-4861-60b050c873ca">
+      <Execution id="f9b74635-e0f1-4d31-9721-6751d436fde1" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.BracketedNameTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FailIfInvalidName" />
+    </UnitTest>
+    <UnitTest name="RelationalTest" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="64e54f18-e35a-ed80-d328-664c54b65236">
+      <Execution id="ebbedc4f-5e4e-446a-b115-6b7c6c50f05e" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.WhereTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RelationalTest" />
+    </UnitTest>
+    <UnitTest name="CannotGetKey" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="f829c1d8-4b89-4f53-cd26-a18871f8688e">
+      <Execution id="7bce3128-d942-4879-b1dc-21c8b10bdf86" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.ConventionTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotGetKey" />
+    </UnitTest>
+    <UnitTest name="OrderByReference" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="73dc04de-7cfd-2af1-4b20-dabeb9ae5343">
+      <Execution id="d21c907e-bc79-427a-8e8e-15f1fdb8cf69" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderByReference" />
+    </UnitTest>
+    <UnitTest name="ReferenceNullInWhere" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="f0f01d9e-ac47-1799-67d2-d3fa63838208">
+      <Execution id="5589fc84-e873-47a5-b94a-05e1c7e2508a" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReferenceNullInWhere" />
+    </UnitTest>
+    <UnitTest name="ConditionalTest" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="fab84030-adb0-2c9e-f038-fadc2c0741fb">
+      <Execution id="3d4cb6e6-b858-4fd7-88c5-a3cd30fbc859" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.WhereTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConditionalTest" />
+    </UnitTest>
+    <UnitTest name="CanGetDefaultMap" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="bd7b49df-a5f5-3bd5-a36f-fa0254793445">
+      <Execution id="9573d941-ff03-4e56-b6b0-223a7e1d7e43" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.MappingTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetDefaultMap" />
+    </UnitTest>
+    <UnitTest name="TestSkip" storage="c:\users\mike.zhu\documents\github\equery\equery.test\bin\debug\equery.test.dll" id="1f7b823a-7d06-33bc-acb8-1c46b521a916">
+      <Execution id="662f8ccc-53e4-499b-90c0-658c44f06087" />
+      <TestMethod codeBase="C:/Users/mike.zhu/Documents/GitHub/EQuery/EQuery.Test/bin/Debug/EQuery.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EQuery.Test.GeneratedSqlTest, EQuery.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSkip" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02bb6116-b3b7-2fbb-4861-60b050c873ca" executionId="f9b74635-e0f1-4d31-9721-6751d436fde1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1295939e-2417-b935-57bf-a5775cda5c98" executionId="1a9884fa-5bf7-4652-9604-2c163ab41231" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="142018ea-4c22-7e85-18e2-383834d5b366" executionId="2a073de3-3be9-4e8b-a380-41b3c10491b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f7b823a-7d06-33bc-acb8-1c46b521a916" executionId="662f8ccc-53e4-499b-90c0-658c44f06087" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21c8cce6-1ade-17c6-6690-8e6ebcdb5192" executionId="a145b6a8-d4aa-4a78-a52b-08b3a91ec69e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35081a32-0fde-0865-7ec8-23beaf8671ba" executionId="42316c9a-40f3-403f-9150-8e1c75a10cb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36f09ae6-03da-ba2b-98e3-71c4de3e1210" executionId="be21e80d-7582-4eec-a2ec-01f83741a920" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="557cc086-db43-ea97-028e-72611a1237a8" executionId="016b4422-c10f-4393-a3df-b072d778beef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="604679de-334e-66ce-ed01-014dbfb26bfb" executionId="eec7336b-b59d-4fdc-92b3-c8d3b4848528" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64e54f18-e35a-ed80-d328-664c54b65236" executionId="ebbedc4f-5e4e-446a-b115-6b7c6c50f05e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b17a000-d079-aa42-ad3c-8990e2b709e5" executionId="205e918e-26f5-4f3a-a1da-641c88f6ae0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73dc04de-7cfd-2af1-4b20-dabeb9ae5343" executionId="d21c907e-bc79-427a-8e8e-15f1fdb8cf69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f8060b-4052-f516-996a-d03c93e5e47a" executionId="6fcff3b1-3a0d-40a7-acf1-caf3cab6bb9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79121f15-5479-0d86-f00f-ed6d3355e8fb" executionId="025f1663-dae7-40f7-aec6-04c9c0b138a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a18e475-f266-bb02-2373-6414942efd4f" executionId="d0b41ef8-5801-4308-aae2-44b1e3a95346" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d99a1ba-7098-6355-7f7d-b0d0f4b9d7e1" executionId="45dd5089-8479-4754-90e7-227fcd0503bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a63abb9a-e385-793a-1daf-cc61b5c42db7" executionId="01b4b35f-fd19-4d20-a3dd-573cd638c2cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afd565a3-3a9f-915f-5510-e5d52c834b25" executionId="dfc8821b-2cae-4756-89a5-864629f5bf3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba283bc6-c9b6-31e3-d74d-8541b0ea6926" executionId="7b45c705-5e5f-4df5-88bf-cd04213ce1ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd7b49df-a5f5-3bd5-a36f-fa0254793445" executionId="9573d941-ff03-4e56-b6b0-223a7e1d7e43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d07192d4-e75d-7d12-9056-46b40d7d5008" executionId="d880184b-8de4-4eb4-b993-5ebb41e034ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5212609-28e6-d919-9f48-b6311253b072" executionId="070dbd58-8344-4f6b-8978-5e4da574f31f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee66c242-ba04-209e-28ef-2981c7087670" executionId="16c62cb3-2ab2-49fa-8930-fa6f26240b33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0f01d9e-ac47-1799-67d2-d3fa63838208" executionId="5589fc84-e873-47a5-b94a-05e1c7e2508a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f829c1d8-4b89-4f53-cd26-a18871f8688e" executionId="7bce3128-d942-4879-b1dc-21c8b10bdf86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fab84030-adb0-2c9e-f038-fadc2c0741fb" executionId="3d4cb6e6-b858-4fd7-88c5-a3cd30fbc859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f9b74635-e0f1-4d31-9721-6751d436fde1" testId="02bb6116-b3b7-2fbb-4861-60b050c873ca" testName="FailIfInvalidName" computerName="CNS-855" duration="00:00:00.0137257" startTime="2012-10-17T20:37:38.5522316+08:00" endTime="2012-10-17T20:37:38.7582522+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9b74635-e0f1-4d31-9721-6751d436fde1">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a9884fa-5bf7-4652-9604-2c163ab41231" testId="1295939e-2417-b935-57bf-a5775cda5c98" testName="CanParseString" computerName="CNS-855" duration="00:00:00.0004763" startTime="2012-10-17T20:37:38.7872551+08:00" endTime="2012-10-17T20:37:38.8002564+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a9884fa-5bf7-4652-9604-2c163ab41231">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a073de3-3be9-4e8b-a380-41b3c10491b7" testId="142018ea-4c22-7e85-18e2-383834d5b366" testName="TestVariousTypes" computerName="CNS-855" duration="00:00:00.0007083" startTime="2012-10-17T20:37:38.8022566+08:00" endTime="2012-10-17T20:37:38.8052569+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a073de3-3be9-4e8b-a380-41b3c10491b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="662f8ccc-53e4-499b-90c0-658c44f06087" testId="1f7b823a-7d06-33bc-acb8-1c46b521a916" testName="TestSkip" computerName="CNS-855" duration="00:00:00.0322164" startTime="2012-10-17T20:37:38.8072571+08:00" endTime="2012-10-17T20:37:38.8422606+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="662f8ccc-53e4-499b-90c0-658c44f06087">
+    </UnitTestResult>
+    <UnitTestResult executionId="a145b6a8-d4aa-4a78-a52b-08b3a91ec69e" testId="21c8cce6-1ade-17c6-6690-8e6ebcdb5192" testName="CannotMapReference" computerName="CNS-855" duration="00:00:00.0015388" startTime="2012-10-17T20:37:38.8452609+08:00" endTime="2012-10-17T20:37:38.8492613+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a145b6a8-d4aa-4a78-a52b-08b3a91ec69e">
+    </UnitTestResult>
+    <UnitTestResult executionId="42316c9a-40f3-403f-9150-8e1c75a10cb8" testId="35081a32-0fde-0865-7ec8-23beaf8671ba" testName="CanGetKey" computerName="CNS-855" duration="00:00:00.0004701" startTime="2012-10-17T20:37:38.8512615+08:00" endTime="2012-10-17T20:37:38.8552619+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42316c9a-40f3-403f-9150-8e1c75a10cb8">
+    </UnitTestResult>
+    <UnitTestResult executionId="be21e80d-7582-4eec-a2ec-01f83741a920" testId="36f09ae6-03da-ba2b-98e3-71c4de3e1210" testName="CanGetTableName" computerName="CNS-855" duration="00:00:00.0002059" startTime="2012-10-17T20:37:38.8582622+08:00" endTime="2012-10-17T20:37:38.8612625+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be21e80d-7582-4eec-a2ec-01f83741a920">
+    </UnitTestResult>
+    <UnitTestResult executionId="016b4422-c10f-4393-a3df-b072d778beef" testId="557cc086-db43-ea97-028e-72611a1237a8" testName="CanWriteFormattedText" computerName="CNS-855" duration="00:00:00.0003699" startTime="2012-10-17T20:37:38.8632627+08:00" endTime="2012-10-17T20:37:38.8672631+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="016b4422-c10f-4393-a3df-b072d778beef">
+    </UnitTestResult>
+    <UnitTestResult executionId="eec7336b-b59d-4fdc-92b3-c8d3b4848528" testId="604679de-334e-66ce-ed01-014dbfb26bfb" testName="BooleanPropertyTest" computerName="CNS-855" duration="00:00:00.0092253" startTime="2012-10-17T20:37:38.8712635+08:00" endTime="2012-10-17T20:37:38.8852649+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eec7336b-b59d-4fdc-92b3-c8d3b4848528">
+    </UnitTestResult>
+    <UnitTestResult executionId="ebbedc4f-5e4e-446a-b115-6b7c6c50f05e" testId="64e54f18-e35a-ed80-d328-664c54b65236" testName="RelationalTest" computerName="CNS-855" duration="00:00:00.0028418" startTime="2012-10-17T20:37:38.8872651+08:00" endTime="2012-10-17T20:37:38.8932657+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebbedc4f-5e4e-446a-b115-6b7c6c50f05e">
+    </UnitTestResult>
+    <UnitTestResult executionId="205e918e-26f5-4f3a-a1da-641c88f6ae0c" testId="6b17a000-d079-aa42-ad3c-8990e2b709e5" testName="TestOrderBy" computerName="CNS-855" duration="00:00:00.0031049" startTime="2012-10-17T20:37:38.8952659+08:00" endTime="2012-10-17T20:37:38.9022666+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="205e918e-26f5-4f3a-a1da-641c88f6ae0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="d21c907e-bc79-427a-8e8e-15f1fdb8cf69" testId="73dc04de-7cfd-2af1-4b20-dabeb9ae5343" testName="OrderByReference" computerName="CNS-855" duration="00:00:00.0018584" startTime="2012-10-17T20:37:38.9052669+08:00" endTime="2012-10-17T20:37:38.9112675+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d21c907e-bc79-427a-8e8e-15f1fdb8cf69">
+    </UnitTestResult>
+    <UnitTestResult executionId="6fcff3b1-3a0d-40a7-acf1-caf3cab6bb9c" testId="77f8060b-4052-f516-996a-d03c93e5e47a" testName="CanRenderSelect" computerName="CNS-855" duration="00:00:00.0008595" startTime="2012-10-17T20:37:38.9132677+08:00" endTime="2012-10-17T20:37:38.9172681+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fcff3b1-3a0d-40a7-acf1-caf3cab6bb9c">
+    </UnitTestResult>
+    <UnitTestResult executionId="025f1663-dae7-40f7-aec6-04c9c0b138a2" testId="79121f15-5479-0d86-f00f-ed6d3355e8fb" testName="ManyParameters" computerName="CNS-855" duration="00:00:00.0029410" startTime="2012-10-17T20:37:38.9192683+08:00" endTime="2012-10-17T20:37:38.9312695+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="025f1663-dae7-40f7-aec6-04c9c0b138a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0b41ef8-5801-4308-aae2-44b1e3a95346" testId="7a18e475-f266-bb02-2373-6414942efd4f" testName="TestTake" computerName="CNS-855" duration="00:00:00.0021017" startTime="2012-10-17T20:37:38.9332697+08:00" endTime="2012-10-17T20:37:38.9382702+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b41ef8-5801-4308-aae2-44b1e3a95346">
+    </UnitTestResult>
+    <UnitTestResult executionId="45dd5089-8479-4754-90e7-227fcd0503bb" testId="8d99a1ba-7098-6355-7f7d-b0d0f4b9d7e1" testName="TestSkipWithoutOrder" computerName="CNS-855" duration="00:00:00.0017639" startTime="2012-10-17T20:37:38.9402704+08:00" endTime="2012-10-17T20:37:38.9472711+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45dd5089-8479-4754-90e7-227fcd0503bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="01b4b35f-fd19-4d20-a3dd-573cd638c2cc" testId="a63abb9a-e385-793a-1daf-cc61b5c42db7" testName="CanGetColumnName" computerName="CNS-855" duration="00:00:00.0031597" startTime="2012-10-17T20:37:38.9512715+08:00" endTime="2012-10-17T20:37:38.9642728+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01b4b35f-fd19-4d20-a3dd-573cd638c2cc">
+    </UnitTestResult>
+    <UnitTestResult executionId="dfc8821b-2cae-4756-89a5-864629f5bf3e" testId="afd565a3-3a9f-915f-5510-e5d52c834b25" testName="EntityRelationAccessInWhere" computerName="CNS-855" duration="00:00:00.0031364" startTime="2012-10-17T20:37:38.9692733+08:00" endTime="2012-10-17T20:37:38.9832747+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfc8821b-2cae-4756-89a5-864629f5bf3e">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b45c705-5e5f-4df5-88bf-cd04213ce1ab" testId="ba283bc6-c9b6-31e3-d74d-8541b0ea6926" testName="CanSetEntityMapping" computerName="CNS-855" duration="00:00:00.0015155" startTime="2012-10-17T20:37:38.9862750+08:00" endTime="2012-10-17T20:37:38.9932757+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b45c705-5e5f-4df5-88bf-cd04213ce1ab">
+    </UnitTestResult>
+    <UnitTestResult executionId="9573d941-ff03-4e56-b6b0-223a7e1d7e43" testId="bd7b49df-a5f5-3bd5-a36f-fa0254793445" testName="CanGetDefaultMap" computerName="CNS-855" duration="00:00:00.0003634" startTime="2012-10-17T20:37:38.9952759+08:00" endTime="2012-10-17T20:37:38.9982762+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9573d941-ff03-4e56-b6b0-223a7e1d7e43">
+    </UnitTestResult>
+    <UnitTestResult executionId="d880184b-8de4-4eb4-b993-5ebb41e034ca" testId="d07192d4-e75d-7d12-9056-46b40d7d5008" testName="StringLikeTest" computerName="CNS-855" duration="00:00:00.0011740" startTime="2012-10-17T20:37:39.0012765+08:00" endTime="2012-10-17T20:37:39.0072771+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d880184b-8de4-4eb4-b993-5ebb41e034ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="070dbd58-8344-4f6b-8978-5e4da574f31f" testId="e5212609-28e6-d919-9f48-b6311253b072" testName="CanMapReference" computerName="CNS-855" duration="00:00:00.0005040" startTime="2012-10-17T20:37:39.0092773+08:00" endTime="2012-10-17T20:37:39.0152779+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="070dbd58-8344-4f6b-8978-5e4da574f31f">
+    </UnitTestResult>
+    <UnitTestResult executionId="16c62cb3-2ab2-49fa-8930-fa6f26240b33" testId="ee66c242-ba04-209e-28ef-2981c7087670" testName="FailedCases" computerName="CNS-855" duration="00:00:00.0013345" startTime="2012-10-17T20:37:39.0162780+08:00" endTime="2012-10-17T20:37:39.0222786+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16c62cb3-2ab2-49fa-8930-fa6f26240b33">
+    </UnitTestResult>
+    <UnitTestResult executionId="5589fc84-e873-47a5-b94a-05e1c7e2508a" testId="f0f01d9e-ac47-1799-67d2-d3fa63838208" testName="ReferenceNullInWhere" computerName="CNS-855" duration="00:00:00.0023367" startTime="2012-10-17T20:37:39.0232787+08:00" endTime="2012-10-17T20:37:39.0312795+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5589fc84-e873-47a5-b94a-05e1c7e2508a">
+    </UnitTestResult>
+    <UnitTestResult executionId="7bce3128-d942-4879-b1dc-21c8b10bdf86" testId="f829c1d8-4b89-4f53-cd26-a18871f8688e" testName="CannotGetKey" computerName="CNS-855" duration="00:00:00.0004024" startTime="2012-10-17T20:37:39.0322796+08:00" endTime="2012-10-17T20:37:39.0382802+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bce3128-d942-4879-b1dc-21c8b10bdf86">
+    </UnitTestResult>
+    <UnitTestResult executionId="3d4cb6e6-b858-4fd7-88c5-a3cd30fbc859" testId="fab84030-adb0-2c9e-f038-fadc2c0741fb" testName="ConditionalTest" computerName="CNS-855" duration="00:00:00.0029578" startTime="2012-10-17T20:37:39.0392803+08:00" endTime="2012-10-17T20:37:39.0462810+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d4cb6e6-b858-4fd7-88c5-a3cd30fbc859">
+    </UnitTestResult>
+  </Results>
+</TestRun>

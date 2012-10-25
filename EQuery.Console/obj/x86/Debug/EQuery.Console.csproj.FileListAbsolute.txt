@@ -1,0 +1,14 @@
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\EQuery.Console.exe.config
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\EQuery.Console.exe
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\EQuery.Console.pdb
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\EQuery.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\EQuery.pdb
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\obj\x86\Debug\EQuery.Console.exe
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\obj\x86\Debug\EQuery.Console.pdb
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\Dapper.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\Simple.Data.Ado.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\Simple.Data.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\Simple.Data.SqlServer.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\Dapper.pdb
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Console\bin\Debug\Dapper.xml

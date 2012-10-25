@@ -1,0 +1,7 @@
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Test\bin\Debug\EQuery.Test.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Test\bin\Debug\EQuery.Test.pdb
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Test\bin\Debug\EQuery.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Test\bin\Debug\EQuery.pdb
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Test\obj\Debug\EQuery.Test.dll
+C:\Users\mike.zhu\Documents\GitHub\EQuery\EQuery.Test\obj\Debug\EQuery.Test.pdb

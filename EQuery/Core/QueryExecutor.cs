@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq.Expressions;
+using System.Reflection;
 using EQuery.Utils;
 
 namespace EQuery.Core
@@ -46,17 +47,38 @@ namespace EQuery.Core
             _context = context;
         }
 
-        public static void Init<T>()
-        {
-            var foo = ExecuteCache<IEnumerable<T>>.Exec;
-        }
-
         public TCollection Execute<TCollection>()
         {
             return ExecuteCache<TCollection>.Exec(this);
         }
 
-        public IEnumerable<T> InnerExecute<T>()
+        internal IEnumerable<T> InnerExecuteMany<T>()
+        {
+            var result = new List<T>();
+            InnerExecute<T>((reader, assemble) =>
+            {
+                while (reader.Read())
+                {
+                    result.Add(assemble(reader));
+                }                
+            });
+
+            return result;
+        }
+
+        internal T InnerExecuteSingle<T>()
+        {
+            var result = default(T);
+            InnerExecute<T>((reader, assemble) =>
+            {
+                if (reader.Read())
+                    result = assemble(reader);                
+            });
+
+            return result;
+        }
+
+        private void InnerExecute<T>(Action<SqlDataReader, Func<SqlDataReader, T>> action)
         {
             var type = typeof(T);
             var entityMap = _context.GetEntityMap(type);
@@ -82,13 +104,7 @@ namespace EQuery.Core
                 using (Profiler.Watch("Assembling"))
                 using (reader)
                 {
-                    var result = new List<T>();
-                    while (reader.Read())
-                    {
-                        result.Add(assemble(reader));
-                    }
-
-                    return result;
+                    action(reader, assemble);                    
                 }
             }
         }
@@ -139,16 +155,17 @@ namespace EQuery.Core
 
             static ExecuteCache()
             {
-                if (Exec == null)
-                {
-                    Type type = typeof(T).GetGenericArguments()[0];
-                    var method = typeof(QueryExecutor).GetMethod("InnerExecute").MakeGenericMethod(type);
-                    var obj = Expression.Parameter(typeof(QueryExecutor), "obj");
+                Type type = typeof(T);
 
-                    var body = Expression.Call(obj, method);
+                var method = type.IsGenericType
+                             ? typeof(QueryExecutor).GetMethod("InnerExecuteMany", BindingFlags.NonPublic | BindingFlags.Instance).MakeGenericMethod(type.GetGenericArguments()[0])
+                             : typeof(QueryExecutor).GetMethod("InnerExecuteSingle", BindingFlags.NonPublic | BindingFlags.Instance).MakeGenericMethod(type);
 
-                    Exec = Expression.Lambda<Func<QueryExecutor, T>>(body, new[] { obj }).Compile();
-                }
+                var obj = Expression.Parameter(typeof(QueryExecutor), "obj");
+
+                var body = Expression.Call(obj, method);
+
+                Exec = Expression.Lambda<Func<QueryExecutor, T>>(body, new[] { obj }).Compile();
             }
         }
     }

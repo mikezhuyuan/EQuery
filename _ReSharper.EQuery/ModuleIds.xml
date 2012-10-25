@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="34EDDD35-C2DA-4328-B2DF-9B686884C0A8" ModuleId="EQuery.Test" />
+  <Module PersistentId="9A7CFDD0-2700-4398-AC88-FE0834C42274" ModuleId="EQuery" />
+  <Module PersistentId="D5ADCF16-0703-427D-B7B3-4921C460A70E" ModuleId="EQuery.Console" />
+</Modules>

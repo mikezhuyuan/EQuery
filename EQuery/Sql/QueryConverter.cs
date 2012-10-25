@@ -48,6 +48,11 @@ namespace EQuery.Sql
                         return VisitTake(Visit(parent, call.Arguments[0]), call);
                     case "Skip":
                         return VisitSkip(Visit(parent, call.Arguments[0]), call);
+                    case "First":
+                    case "Single":
+                    case "FirstOrDefault":                    
+                    case "SingleOrDefault":
+                        return VisitFirst(Visit(parent, call.Arguments[0]), call);                        
                 }                
             }
 
@@ -100,6 +105,14 @@ namespace EQuery.Sql
             {
                 throw new NotSupportedException();
             }
+
+            return select;
+        }
+
+        private ISqlNode VisitFirst(ISqlNode parent, MethodCallExpression expr)
+        {
+            var select = (ISelect)parent;
+            select.Top = new Top(new ConstantProvider(_context, 1));
 
             return select;
         }

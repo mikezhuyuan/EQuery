@@ -69,8 +69,13 @@ namespace EQuery.Utils
             foreach (var watch in _instance._watches)
             {
                 var ms = watch.Value.Elapsed.TotalMilliseconds;
-                sbuf.AppendLine(watch.Key + ": " + ms);
                 total += ms;
+            }
+
+            foreach (var watch in _instance._watches)
+            {
+                var ms = watch.Value.Elapsed.TotalMilliseconds;
+                sbuf.AppendLine(watch.Key + ": " + ms + " (" + (ms / total).ToString("P02") + ")");                
             }
 
             sbuf.AppendLine("Total: " + total);

@@ -17,6 +17,7 @@
         public const string Is = "IS";
         public const string Or = "OR";
         public const string And = "AND";
+        public const string Mod = "%";
         public const string Not = "NOT";
         public const string LessThan = "<";
         public const string GreaterThan = ">";
